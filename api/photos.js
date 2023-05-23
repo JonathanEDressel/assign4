@@ -8,7 +8,10 @@ const { validateAgainstSchema } = require('../lib/validation')
 const {
   PhotoSchema,
   insertNewPhoto,
-  getPhotoById
+  getPhotoById,
+  saveInfo,
+  saveFile,
+  getImageById
 } = require('../models/photo')
 
 const router = Router()
